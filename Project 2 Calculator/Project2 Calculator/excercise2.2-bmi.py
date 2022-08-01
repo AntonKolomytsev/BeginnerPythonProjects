@@ -1,0 +1,8 @@
+height = input("Enter your height in m:\n")
+weight = input("Enter your weight in kg:\n")
+new_height = float(height)
+new_weight = int(weight)
+bmi = (new_weight / new_height ** 2)
+print("Underweight = <18.5" + " " + "Normal weight = 18.5–24.9")
+print("Overweight = 25–29.9" + " " + "Obesity = BMI of 30 or greater")
+print(round(bmi))
